@@ -8,13 +8,11 @@
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
-*-cache*
-*-bak
-*-bak*
+*.kicad_prl
+*.sch-bak
 *~
-~*
+*.
 _autosave-*
-\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -31,13 +29,39 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+.DS_Store
+replicate_layout.log
 
-# Local git-based history (KiCad 9.0+)
-.history
+build/
+.vscode/
+.vscode/compile_commands.json
 
-# Local project settings
-*.kicad_prl
+# Build Files
+build/
+Build/
+
+# Python
+*venv
+__pycache__/
+.env
+
+# Mac specific files
+.DS_Store
+
+# Vim
+*.swp
+
+# Nix
+flake.lock
+
+# Documentation     
+docs/doxygen/
+site/*
+!site/empty.a
+Zone.Identifier
+
+# VSCode settings
+.vscode/*
+!.vscode/c_cpp_properties.json
+compile_commands.json
