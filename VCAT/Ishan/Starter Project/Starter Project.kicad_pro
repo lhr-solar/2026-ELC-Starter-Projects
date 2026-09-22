@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -279,6 +279,41 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SWD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -286,7 +321,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "/SWD*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RF*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -342,31 +398,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -378,15 +434,63 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor Link",
+          "name": "Distributor Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -429,7 +533,7 @@
         "uuid": "3cbc0e7b-7ca5-4999-b0c3-5a3c932f9e64"
       }
     ],
-    "used_designators": "L1-3,Y1-2,U1,#PWR1-12,C1-15,R1",
+    "used_designators": "#FLG1-2,L1-3,X1-2,C1-19,U1-3,SW1,J1-4,FLT1-3,Y1-2,D1,#PWR1-28,R1-7",
     "variants": []
   },
   "sheets": [
