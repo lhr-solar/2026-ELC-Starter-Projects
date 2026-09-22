@@ -2253,6 +2253,12 @@
 		(uuid "18a145e2-834c-4700-9336-11dc3ea8dea0")
 	)
 	(junction
+		(at 234.95 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19e0ca6f-ff70-4d44-a4d2-61fff72ca9e7")
+	)
+	(junction
 		(at 149.86 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2391,6 +2397,12 @@
 		(uuid "eaf8cc3a-03fe-48e9-ad1a-1cca27dece6b")
 	)
 	(junction
+		(at 247.65 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4e541d-e648-46ca-81a6-7cb66de00493")
+	)
+	(junction
 		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2477,6 +2489,16 @@
 			(type default)
 		)
 		(uuid "10573299-290b-4307-9182-cf6405bdab3c")
+	)
+	(wire
+		(pts
+			(xy 247.65 86.36) (xy 265.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13260298-3155-454f-b80d-963e24df9e65")
 	)
 	(wire
 		(pts
@@ -2567,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "5127007d-85d8-408f-af5d-f84e2d9f6ed5")
+	)
+	(wire
+		(pts
+			(xy 245.11 86.36) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d3e711-dfad-4a3e-aaad-70e7cabe5ec8")
 	)
 	(wire
 		(pts
@@ -2860,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 86.36) (xy 237.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeed2770-7cac-490f-9be5-3bc935f5581b")
+	)
+	(wire
+		(pts
 			(xy 96.52 39.37) (xy 85.09 39.37)
 		)
 		(stroke
@@ -2907,6 +2949,16 @@
 			(type default)
 		)
 		(uuid "b8dfc173-e2b3-4be3-8626-bfadf69f0d29")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 234.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf828a81-3994-408d-b180-c39b22eaf780")
 	)
 	(wire
 		(pts
@@ -3000,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 86.36) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e025939d-8e31-4f14-ad9d-bf1945a8919a")
+	)
+	(wire
+		(pts
 			(xy 186.69 68.58) (xy 190.5 68.58)
 		)
 		(stroke
@@ -3077,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "f1ddfcb8-a0ed-47d6-89e2-ee8b0df90076")
+	)
+	(wire
+		(pts
+			(xy 234.95 86.36) (xy 234.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f63257-7c16-4b1d-9cb3-a2bab545c272")
 	)
 	(wire
 		(pts
@@ -3561,6 +3633,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 241.3 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0e941c-19e7-43ec-873a-1a9deb60341f")
+		(property "Reference" "L3"
+			(at 241.3 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2n7"
+			(at 241.3 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b92fabd8-9b6b-4762-a3c0-12d13f153d85")
+		)
+		(pin "2"
+			(uuid "eb4efe4b-8a01-448c-980f-47bb8f895a33")
+		)
+		(instances
+			(project "Gavin_Starter"
+				(path "/40662500-3511-46f5-9ccc-68289c67b6ca"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 134.62 25.4 0)
 		(unit 1)
@@ -3637,6 +3789,88 @@
 			(project "Gavin_Starter"
 				(path "/40662500-3511-46f5-9ccc-68289c67b6ca"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28365e92-5bbd-4736-8f1f-d9765bd012c9")
+		(property "Reference" "C14"
+			(at 238.76 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0p8"
+			(at 238.76 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 235.9152 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 234.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03a5b0ff-93fd-4142-8dc9-1b488bbe3f2d")
+		)
+		(pin "2"
+			(uuid "d0967ca7-4496-4b1a-8ee4-b06dde4342d0")
+		)
+		(instances
+			(project "Gavin_Starter"
+				(path "/40662500-3511-46f5-9ccc-68289c67b6ca"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3793,6 +4027,88 @@
 			(project "Gavin_Starter"
 				(path "/40662500-3511-46f5-9ccc-68289c67b6ca"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f9c29d-5bab-41cd-a7f8-201ba7f128d6")
+		(property "Reference" "C15"
+			(at 251.46 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0p3"
+			(at 251.46 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.6152 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d0d7c79-e474-4633-b77d-2cd7db7ded03")
+		)
+		(pin "2"
+			(uuid "9ff46713-e9a0-411e-983f-1f23eb7f752a")
+		)
+		(instances
+			(project "Gavin_Starter"
+				(path "/40662500-3511-46f5-9ccc-68289c67b6ca"
+					(reference "C15")
 					(unit 1)
 				)
 			)
