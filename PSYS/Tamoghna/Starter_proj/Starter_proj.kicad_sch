@@ -5165,6 +5165,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text " 3.3V / 0.647A"
+		(exclude_from_sim no)
+		(at 206.248 105.918 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "25762397-e000-4246-a27f-286f31b6c28b")
+	)
 	(text "+5v to +3v3 LDO Regulator\n"
 		(exclude_from_sim no)
 		(at 72.644 15.748 0)
@@ -5194,6 +5204,26 @@
 			)
 		)
 		(uuid "7bba4d50-554f-4f7b-9923-743371d9845f")
+	)
+	(text " 3.3V / 0.015A"
+		(exclude_from_sim no)
+		(at 219.456 95.25 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "7c3b8d99-a476-4c57-9761-ed78f4193352")
+	)
+	(text "0.00051s / 5.1koh"
+		(exclude_from_sim no)
+		(at 221.234 107.696 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "811c5a78-3717-482c-8697-e787c845a55c")
 	)
 	(text "SWD Header\n"
 		(exclude_from_sim no)
@@ -5225,6 +5255,26 @@
 		)
 		(uuid "b578a89d-403a-41cc-8ab0-93c46ef02336")
 	)
+	(text "3.3V / 0.015A"
+		(exclude_from_sim no)
+		(at 101.346 57.404 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "c0cc0574-f8c0-4bdf-82a2-4d0716e3994e")
+	)
+	(text "2 * (7pF - 2pF)"
+		(exclude_from_sim no)
+		(at 182.372 99.822 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "c75e10f6-27ac-4811-ba9f-aaf34b49bfef")
+	)
 	(text "RF & u.FL Connector\n"
 		(exclude_from_sim no)
 		(at 259.588 68.58 0)
@@ -5254,6 +5304,16 @@
 			)
 		)
 		(uuid "f28c9c39-f106-4ae8-b136-791d1e7cbc03")
+	)
+	(text "(3.3V - 2.0V) / 0.006A"
+		(exclude_from_sim no)
+		(at 96.266 65.532 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "f7a690d2-64cc-4568-88a2-082354798006")
 	)
 	(junction
 		(at 88.9 48.26)
