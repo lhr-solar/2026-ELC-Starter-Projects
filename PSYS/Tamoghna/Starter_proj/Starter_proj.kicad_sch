@@ -7082,6 +7082,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 78.74) (xy 252.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3871ed2-ce02-4606-94b8-c5be0024e5fb")
+	)
+	(wire
+		(pts
 			(xy 195.58 93.98) (xy 187.96 93.98)
 		)
 		(stroke
@@ -7230,7 +7240,7 @@
 		)
 		(uuid "fe226831-b04e-4dda-b8e3-2305a28aa731")
 	)
-	(label "SMPLX"
+	(label "SMPS_LX"
 		(at 167.64 55.88 0)
 		(effects
 			(font
@@ -7250,6 +7260,16 @@
 		)
 		(uuid "0510395d-d79c-4456-96d7-41bada01037d")
 	)
+	(label "USBC_D+"
+		(at 49.53 82.55 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a323a0d-1c48-46e5-b573-f896cc7d7701")
+	)
 	(label "HSE_IN"
 		(at 167.64 60.96 0)
 		(effects
@@ -7259,6 +7279,16 @@
 			(justify left bottom)
 		)
 		(uuid "0a953626-7ae5-428e-a443-d2312d5cdd02")
+	)
+	(label "USBC_D-"
+		(at 49.53 80.01 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "12866346-9378-4c95-9406-6040756c8d29")
 	)
 	(label "HSE_OUT"
 		(at 167.64 63.5 0)
@@ -7280,7 +7310,7 @@
 		)
 		(uuid "2fffebf6-73e4-4d63-91fb-4bae6a4846c4")
 	)
-	(label "SMPSFB"
+	(label "SMPS_FB"
 		(at 167.64 68.58 0)
 		(effects
 			(font
@@ -7320,6 +7350,16 @@
 		)
 		(uuid "744b6f00-a89f-472b-8c52-e8f433280090")
 	)
+	(label "RF_MATCH"
+		(at 226.06 78.74 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f5ca906-0c55-4c4d-ac73-7298b1dc5fd9")
+	)
 	(label "UART_TX"
 		(at 111.76 55.88 0)
 		(effects
@@ -7329,6 +7369,16 @@
 			(justify left bottom)
 		)
 		(uuid "88a80da7-bf72-4b48-a85d-b4b0403379d5")
+	)
+	(label "USBC_CC2"
+		(at 40.64 72.39 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd7028f-f7c1-4173-a89b-b977cdb65a6d")
 	)
 	(label "UART_RX"
 		(at 111.76 58.42 0)
@@ -7349,6 +7399,16 @@
 			(justify left bottom)
 		)
 		(uuid "a6fa135e-90f4-443c-b820-47854798bdca")
+	)
+	(label "USBC_CC1"
+		(at 40.64 69.85 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab65e443-3955-4d5f-810d-0fa2881f0735")
 	)
 	(label "SWD_TRC"
 		(at 115.57 101.6 0)
@@ -7410,6 +7470,16 @@
 		)
 		(uuid "e1063fd0-34f5-44c4-810b-0d5ad713f5d4")
 	)
+	(label "SMPS_LXL"
+		(at 181.61 55.88 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "e56c3334-9641-477d-89a1-500f247aea2e")
+	)
 	(label "LED_A"
 		(at 109.22 67.31 0)
 		(effects
@@ -7429,6 +7499,16 @@
 			(justify left bottom)
 		)
 		(uuid "e930f2e2-daaa-4598-8a87-0f982ed2bdfd")
+	)
+	(label "RF_ANT"
+		(at 252.73 78.74 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "eefef5bb-fd35-42db-9310-968e08a41b12")
 	)
 	(label "UART_RXC"
 		(at 85.09 58.42 0)
@@ -9705,7 +9785,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 257.81 78.74 0)
+		(at 260.35 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9716,7 +9796,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d256c85-1bc8-4c8d-8dce-1fda495e8eed")
 		(property "Reference" "J1"
-			(at 261.62 77.7631 0)
+			(at 264.16 77.7631 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9727,7 +9807,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 261.62 80.3031 0)
+			(at 264.16 80.3031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9738,7 +9818,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 257.81 78.74 0)
+			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9749,7 +9829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 78.74 0)
+			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,7 +9840,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 257.81 78.74 0)
+			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10261,7 +10341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 83.82 0)
+		(at 260.35 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10272,7 +10352,7 @@
 		(fields_autoplaced yes)
 		(uuid "811a123f-f04b-4cfa-a503-fba345d165d7")
 		(property "Reference" "#PWR013"
-			(at 257.81 90.17 0)
+			(at 260.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10283,7 +10363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 88.9 0)
+			(at 260.35 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10293,7 +10373,7 @@
 			)
 		)
 		(property "Footprint" "footprintlib:Untitled"
-			(at 257.81 83.82 0)
+			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10304,7 +10384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 83.82 0)
+			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +10395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 83.82 0)
+			(at 260.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13165,7 +13245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical"
 			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
