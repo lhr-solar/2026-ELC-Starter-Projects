@@ -10331,7 +10331,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 269.24 106.68 0)
+		(at 270.51 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10342,7 +10342,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a26568a-4249-4cf3-a27f-fec80483338d")
 		(property "Reference" "J4"
-			(at 273.05 105.7032 0)
+			(at 274.32 103.1632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10353,7 +10353,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 273.05 108.2432 0)
+			(at 274.32 105.7032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10364,7 +10364,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 269.24 106.68 0)
+			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10375,7 +10375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 106.68 0)
+			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +10386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 106.68 0)
+			(at 270.51 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
